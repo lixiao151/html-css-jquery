@@ -1,0 +1,9 @@
+.logocar{height:80px; line-height:80px;}
+.logocar img{float:left; margin-top:15px; margin-right:120px;}
+.logocar h2{overflow: hidden;}
+.logocar h2 a{color:#fff; display: block;width:150px; text-align: center; height: 40px; line-height: 40px; background: red; float:left; margin-top:30px; margin-right: 300px;}
+.mycar{padding-top: 50px; padding-bottom: 60px; font-size: 18px;}
+.mycar img{width: 90px;}
+.mycar em{display: block;width: 100px;line-height: 30px;text-align: center;background: dodgerblue;border-radius: 6px;margin: 0 auto;margin-top: 10px;font-style: normal;cursor: pointer;color: #fff;}
+.mycar input[type="number"]{width:100px}
+.mycar td{text-align: center;}

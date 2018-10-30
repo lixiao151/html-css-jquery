@@ -1,0 +1,27 @@
+.allsear{height:40px;padding-top:10px}
+.allsear a{float:left; height:40px; line-height: 40px;width:80px;}
+.allsear a:hover{color:red}
+	#sear{float:left; width:200px; height:20px; margin-top: 5px;}
+	.allsear span{float:right;  margin-top: 5px;}
+.fenlei{height:95px;border:1px #999 solid;}
+.fenlei p{height:95px; width:120px; background:#CFD2D6; float:left}
+.fenlei ul{float:left; width:1000px; height:95px;}
+.fenlei ul li{float:left; margin:10px 20px;}
+.fenlei ul li:nth-child(1){background: red; padding: 0 8px; border-radius:5px ;}
+.fenlei ul li:hover{color:red}
+.paizi{height:80px;border:1px #999 solid; margin-bottom:25px;}
+.paizi p{height:80px; width:120px; background:#CFD2D6; float:left}
+.paizi ul{float:left; width:1000px; height:80px;}
+.paizi ul li{float:left; margin:10px 25px;}
+.paizi ul li:nth-child(1){background: red; padding: 0 8px; border-radius:5px ;}
+.paizi ul li:hover{color:red}
+.listbiao{background: #fff;}
+.listbiao ul{width:1190px; overflow: hidden;box-sizing: border-box;}
+.listbiao ul li{height:342px; width:234px; border:1px #999 solid;float:left;  position: relative;box-sizing: border-box;}
+.listbiao ul li:hover{border:3px red solid;}
+.listbiao ul li .goodlist{text-align: left;}
+.goodlist img{display:block;height:220px; }
+.goodlist p{margin-top:10px;margin-left: 10px;}
+.goodlist p:nth-of-type(1){color: red; font-size:18px;}
+.goodlist p:nth-of-type(3){color:#999;position: absolute;bottom: 5px;}
+

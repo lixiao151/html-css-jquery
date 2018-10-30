@@ -1,0 +1,73 @@
+@charset "utf-8";
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img { margin:0;padding:0;}
+ul li {list-style:none;}
+img {display:block}
+a {color:#313234; text-decoration:none;}
+a:hover {text-decoration:underline;}
+body {color:#444;font:14px/1.5 "微软雅黑";}
+.clearfix:after {content:"."; height:0; clear:both; display:block; visibility:hidden;}
+.layout {margin:0 auto;width:1190px}
+
+.header{height:80px; background:#8033d6}
+.sub{height:40px; background:#f5f5f5;line-height: 40px;}
+	.sub a:hover{color:red;}
+.search{height:100px; margin-top:15px;}
+	.logo{margin-right: 50px; float:left}
+	.buy{margin-right: 20px;float:left}
+	.search1{width:530px; height:64px;float:left}
+		.sea{width:530px; height:36px; background: red;}
+			#txt{width:410px; height:30px;border:2px red solid}
+			#btn{width:110px;height:30px;border:2px red solid; background: red; text-align: center;line-heiht:30px; color:#fff; font-size: 16px;}
+		.host{padding-top:8px; width:530px; height:28px;}
+			.host span{display: inline-block; float:left}
+			.host ul{width:300px; height:28px;float:left; margin-left:20px}
+			.host ul li{float:left; width:46px; height:28px }
+	.qingd{float:left; margin-left:20px;}
+.nav{width:100%; background: #c40000;height:40px}
+	.nav1{position:relative}
+	.nav1 .menu{position:absolute; height:450px;top:40px;z-index: 999;}
+			.nav2{height:450px; width:130px; background: #f5f5f5;position: relative;}
+			.caid>li{height:45px; width:130px; text-align: center;line-height: 45px; }
+			.caid>li>ul{position:absolute; width:810px; height:449px; background: #fff;left:130px;top:0; display: none; overflow: auto;}
+				.twomenu li{width:750px;overflow: hidden;padding:0 20px}
+				.twomenu li h5{float:left;}
+				.twomenu li h5 a{color:red;font-size:16px ;}
+				.twomenu li span{float:right; font-size:14px ;font-weight: bolder;}
+				.twomenu li .fenzhi{width:740px; border-bottom: 1px #666 dashed; margin-top:20px}
+				.twomenu li .fenzhi a:hover{color:red}
+	.nav1 p{width:100px; height:40px;float:left; font-size: 16px; text-align: center;line-height: 40px;color:#fff}
+	.nav1 .msg{float:left; height:40px;width:850px; margin-left:30px}
+	.nav1 .msg li{float:left; }
+	.nav1 .msg li a{display:block; height:40px; line-height: 40px;padding:0 25px; color:#fff}
+	.nav1 .msg li:nth-child(1) a{background: #FF2727;}
+	.nav1 .msg li a:hover{background:#FF2727;}
+.lianjie{}	
+	.nav4 {height:30px;background: #f5f5f5;position: relative;width:300px; margin-bottom: 100px;}
+			.nav4>ul{line-height:30px;display: flex;text-align: center; width:300px;}
+			.nav4>ul>li{flex: 1;height: 30px;width:100px;}
+			.nav4 li ul{display: none;width:1190px;position: absolute;left:0;top:50px;}
+			.nav4>ul>li:nth-child(1) ul{display:block}
+			.nav4>ul>li:nth-child(1) ul li{float:left; margin:0 20px;}
+			.nav4 li li a{float:left;margin:2px 8px}
+	.bgt{background: url(//image.wjyh.com/views/images/down/feature.png) no-repeat top center; height:100px; }
+.guide{height:150px; border-top:1px #000 solid; padding-top:20px; margin-bottom: 60px;}
+	.gubox{width:140px; height:170px; float:left}
+	.gubox h3{height:30px; line-height: 30px; font-size: 18px; font-weight: normal;margin-bottom: 10px;}
+	.gubox ul li{margin:3px 0}
+	.gubox ul li:hover{color:red}
+.navfoot{height:40px; background: #c80928;width: 100%;}
+	.bul ul{width:600px;height:40px; margin-left:300px;}
+	.bul ul li{float:left; border-right: 1px #fff solid;}
+	.bul ul li:nth-last-child(1){border-right:none;}
+	.bul ul li a{height:40px; line-height: 40px; margin:0 20px; color:#fff; font-weight: bolder;}
+.allfoot1{height:56px; text-align: center; margin-top:30px}
+.footpto{height:110px; text-align: center;margin-top:10px;}
+	.footpto img:nth-child(1){float:left; margin-left:450px}
+.left1{width:28px; height:100%;  background:#000; position:fixed; right:0;top:0;z-index: 999;}
+	.left1 a{color:#fff;display: block; width:35px; font-size: 18px; padding-left:5px}
+	.left1 a:nth-child(1){margin-top:80px}
+	.left1 a:nth-child(2){margin-top:60px}
+	.left1 a:nth-child(3){margin-top:150px}
+	.left1 a:hover{background: red;}
+	.left1 .quding{margin-top: 100px;font-size: 18px; color:#fff;padding-left:5px}
+	.left1 .quding:hover{color:red}
