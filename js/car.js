@@ -18,8 +18,8 @@ class Car{
 				})
 			}
 			getCookie(){
-//				console.log(1111111)
-//				console.log($.cookie("goods"))
+				console.log(1111111)
+				console.log($.cookie("goods"))
 				this.goods = JSON.parse($.cookie("goods"))
 				this.display()
 			}
