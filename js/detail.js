@@ -35,7 +35,7 @@
 				<div id="box3" goodsId="${this.res[str].gId}">
 					<h2>${this.res[str].tit}</h2>
 					<p>促销<span>${this.res[str].price}</span><span>已有<i>${this.res[str].pingjia}</i>人评价</span><span>上海地区满329元包邮活动</span></p>
-					<p>配送：上海市宝山区； 快递5元</p>
+					<p>配送：上海市； 快递5元</p>
 					<input type="button" name="btn2" id="btn2" value="立即购买" />
 					<input type="button" name="btn3" id="btn3" value="加入购物车" />
 				</div>
